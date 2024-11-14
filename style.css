@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: black;
+  font-family: Host Grotesk;
+}
+
+.navbar{
+  z-index: 111;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  position: fixed;
+}
+
+.banner{
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+}
+
+.logo_nav img{
+  max-width: 150px;
+}
+
+.center{
+  padding-top: 350px;  /* Asegura que el padding-top sea siempre 350px */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image img{
+  max-width: 80%;  /* Asegura que la imagen no exceda el tamaño del contenedor */
+  height: auto;  /* Mantiene la proporción de la imagen */
+  max-height: 200px;  /* Limita la altura de la imagen para que todas sean de tamaño uniforme */
+  object-fit: contain;  /* Asegura que la imagen se ajuste sin distorsionarse */
+}
+
+.button{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.button button{
+  width: 70%;
+  height: 40px;
+  border: none;
+  background: rgb(255, 255, 255,0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  color: white;
+}
+
+.contain_carrusel{
+  padding-top: 20%;
+  margin-left: 10px;
+}
+
+.title h1{
+  color: white;
+  margin-left: 6px;
+}
+
+.carrusel{
+  height: 40vh;
+  padding-top: 10px;
+  display: flex;
+  overflow-y: auto;
+}
+
+.card{
+  margin-left: 10px;
+}
+
+.card img{
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+.card img:hover{
+  transform: scale(1.02);
+}
+
+/* Estilos para la barra de navegación */
+.inferior {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+/* Estilos para los íconos y el texto */
+.inferior a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  flex: 1;
+}
+
+/* Estilos para los íconos */
+.inferior a i {
+  font-size: 24px;
+  display: block;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.modal.show {
+  display: block;
+  top: 0;
+  opacity: 1;
+}
+
+.modal-content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  backdrop-filter: blur(20px);
+  position: relative;
+}
+
+/* Close button styles */
+.close-btn {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #333;
+  background: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.close-btn:hover {
+  background: #ccc;
+}
+
+.logo_movie_detail{
+  margin-left: 20px;
+  padding-top: 90%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.buton_info{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.buton_info button{
+  width: 50%;
+  height: 40px;
+  border: none;
+  background: rgba(80,80,80,0.5);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  color: white;
+}
+
+.logo_movie_detail img{
+  max-width: 140px;
+}
+
+.movie_detalles{
+}
+
+/* Estilos para la navbar inferior */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.inferior {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-link i {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Efecto hover */
+.nav-link:hover {
+  color: #ff6b6b;
+}
+
