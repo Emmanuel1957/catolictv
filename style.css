@@ -64,6 +64,10 @@ body{
   color: white;
 }
 
+.movies{
+  padding-top: 25%;
+}
+
 .contain_carrusel{
   padding-top: 5%;
   margin-left: 10px;
