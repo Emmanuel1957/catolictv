@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: black;
+  font-family: Host Grotesk;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  position: fixed;
+}
+
+.banner{
+ background-size: cover;
+ background-position: center center;
+ height: 60vh;
+ border-radius: 0 0 50px 50px;
+}
+
+
+.logo_nav img{
+  max-width: 150px;
+}
+
+.center{
+}
+
+
+.image{
+  padding-top: 30%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image img{
+  max-width: 200px;
+}
+
+.btn_flex{
+  padding-top: 40%;
+  display: flex;
+  margin-left: 20px;
+  
+}
+
+.contain_carrusel{
+  margin-left: 10px;
+}
+
+.play button{
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  background: white;
+  color: black;
+  border: none;
+}
+
+.list button{
+  margin-left: 10px;
+  width: 50px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+ background-color: rgba(90,100,100,0.5);
+ backdrop-filter: blur(12px);
+ color: white;
+}
+
+
+
+.title h1{
+  color: white;
+  margin-left: 6px;
+}
+
+.carrusel{
+  height: 40vh;
+  padding-top: 10px;
+  display: flex;
+  overflow-y: auto;
+}
+
+.card{
+  margin-left: 10px;
+}
+
+
+.card img{
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+.card img:hover{
+  transform: scale(1.02);
+}
+
+
+.logo_movie_detail{
+  margin-left: 20px;
+  padding-top: 90%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.buton_info{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.buton_info button{
+width: 50%;
+  height: 40px;
+  border: none;
+  background: rgba(80,80,80,0.5);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  color: white;
+}
+
+
+
+.logo_movie_detail img{
+  max-width: 140px;
+}
+
+.movie_detalles{
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.text{
+  display: flex;
+}
+
+.date p{
+  color: gray;
+}
+
+.date{
+  margin-left: 20px;
+}
+
+.text{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.text h1{
+  color: white;
+  font-size: 25px;
+}
+
+.details{
+  padding-top: 20px;
+  background: #212121b0;
+  margin: 10px 10px;
+  height: 80vh;
+  border-radius: 40px;
+}
+
+.descript{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px 10px;
+}
+
+.descript p{
+  text-align: center;
+  color: white;
+}
+
+.gen p{
+  color: gray;
+  text-align: center;
+}
+
+.trailer{
+  padding-top: 20px;
+  display: flex;
+  overflow-y: auto;
+}
+
+.card img{
+  max-width: 300px;
+}
+
+.details_text{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.flex{
+  display: flex;
+}
+
+.text1{
+  color: white;
+}
+
+.card_two{
+  margin-left: 30%;
+}
+
+.card_tree{
+  padding-top: 20px;
+}
+
+.title h1{
+  text-align: center;
+}
